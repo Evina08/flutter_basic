@@ -34,6 +34,13 @@ class MyApp extends StatelessWidget {
                         image: NetworkImage(
                             'https://asset.kompas.com/crops/cE82lPpVzXgn2fH_uI_RRnCfmgo=/0x0:2410x1607/750x500/data/photo/2021/02/17/602c34b7f0e13.jpg'))),
               ),
+              Container(
+                child: Text(
+                  'Costa Mendekat Ke Palmeiras',
+                  style: TextStyle(fontSize: 27),
+                  textAlign: TextAlign.center,
+                ),
+              ),
             ],
           ),
         ),
