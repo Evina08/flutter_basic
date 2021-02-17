@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'column.dart';
 
 void main() => runApp(MyApp());
 
@@ -49,6 +50,9 @@ class MyApp extends StatelessWidget {
                 child: Text("Transfer",
                     style: TextStyle(fontSize: 18, color: Colors.black)),
               ),
+              col(),
+              col(),
+              col(),
             ],
           ),
         ),
