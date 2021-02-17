@@ -23,6 +23,19 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
+          body: ListView(
+            children: <Widget>[
+              Container(
+                height: 250,
+                width: 500,
+                decoration: BoxDecoration(
+                    image: DecorationImage(
+                        fit: BoxFit.fill,
+                        image: NetworkImage(
+                            'https://asset.kompas.com/crops/cE82lPpVzXgn2fH_uI_RRnCfmgo=/0x0:2410x1607/750x500/data/photo/2021/02/17/602c34b7f0e13.jpg'))),
+              ),
+            ],
+          ),
         ),
       ),
     );
